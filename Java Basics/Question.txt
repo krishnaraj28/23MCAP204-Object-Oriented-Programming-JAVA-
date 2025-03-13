@@ -1,0 +1,26 @@
+1) Write a program to find the area and perimeter of a circle.
+2) Write a program to find the area and perimeter of a rectangle.
+3. write a program to find eligibility of a student :
+ 	a) Input marks for Math, Physics, and Chemistry.
+ 	b) Check eligibility based on:
+ 		Total marks of Math, Physics, and Chemistry.
+1. Math >= 60 and physics >=50 and chemistry>=40 and total >=200
+2. Total marks of Math and Physics >= 150	
+4. write a program to find salary of an employee:
+ 	Manager = 50,000
+  	Developer = 30,000
+  	Intern  =15,000
+ 	b) Apply experience-based bonus:
+  		3 to 5 years = 10% bonus
+  		More than 5 years = 20% bonus
+  		Less than 3 years = No bonus
+5. write a program to display grades
+
+  	A (90% and above) = "Excellent work!"
+  	B (80% to 89%) = "Good job!"
+  	C (70% to 79%) = "You can do better"
+  	D (60% to 69%) = "Work harder"
+  	F (Below 60%) = "Failed. Try again"
+6. Write a program to check if a number is a palindrome.
+7. Write a program to check if a number is an Armstrong number.
+8. Print the Fibonacci sequence up to a given limit.
