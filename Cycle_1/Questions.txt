@@ -1,0 +1,30 @@
+9. .Create a BankAccount class with the following:
+
+Fields: accountNumber (String), accountHolder (String), balance (double)
+A constructor to initialize all fields.
+Methods:
+deposit(double amount): Adds the amount to the balance.
+withdraw(double amount): Deducts the amount if sufficient funds exist; otherwise, prints an error message.
+displayAccountInfo(): Displays account details.
+Test:
+Create a bank account object and perform deposit, withdrawal, and display operations.
+
+10. Create a Rectangle class with:
+Fields: length and width (both double).
+Constructors:
+A default constructor setting length and width to 1.
+A parameterized constructor to initialize given values.
+Methods:
+calculateArea(): Returns area (length * width).
+calculatePerimeter(): Returns perimeter (2 * (length + width)).
+Test:
+  Create different rectangles and print their area and perimeter.
+
+11.  Create a Student class with:
+Fields: studentId (int), name (String), marks (double)
+A constructor to initialize all fields.
+Methods:
+displayDetails(): Displays student details.
+isPassed(): Returns true if marks are 40 or above, else false.
+Test:
+Create multiple students and check their pass status.
