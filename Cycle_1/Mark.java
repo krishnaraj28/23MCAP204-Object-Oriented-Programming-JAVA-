@@ -7,7 +7,7 @@ class Student {                                                 //student class
         this.name = name;
         this.marks = marks;
     }
-    public void displayDetails() {                             //display method for displaying student details
+    public void displayDetails() {                           //display method for displaying student details
         System.out.println("Student ID: " + studentId);
         System.out.println("Name: " + name);
         System.out.println("Marks: " + marks);
@@ -18,7 +18,7 @@ class Student {                                                 //student class
         }
         System.out.println();
     }
-    public boolean isPassed() {                              //boolean method to determine passed or not                 
+    public boolean isPassed() {                             //boolean method to determine passed or not                 
         return marks >= 40;
     }
 }
