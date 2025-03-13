@@ -4,8 +4,8 @@ public class Student{
 		char grade;
 		System.out.println("Enter the Mark:");
 		Scanner sc=new Scanner(System.in);
-		float mark=sc.nextFloat();
-		if(mark>=90) {
+		float mark=sc.nextFloat();		//reading the mark
+		if(mark>=90) {				//Determine the grade using the if-else structure
 			System.out.println("A");
 			grade='A';
 		}
@@ -25,7 +25,7 @@ public class Student{
 			System.out.println("F");
 			grade='F';
 		}
-		switch(grade) {
+		switch(grade) {						//diplay message using switch-case based on the grade
 			case 'A':
 				System.out.println("Excellent Work");
 				break;
