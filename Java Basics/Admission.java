@@ -9,7 +9,7 @@ public class Admission {
 		float physics=sc.nextFloat();
 		System.out.println("Enter the Mark of Chemistry:");
 		float chemistry=sc.nextFloat();
-		double total=maths+physics+chemistry;
+		double total=maths+physics+chemistry;	//total mark calculation
 		double mapy=maths+physics;
 		System.out.println("TOTAL:"+total); //total mark
 		System.out.println("TOTAL(Maths+Physics):"+mapy); //mark of physics+maths
