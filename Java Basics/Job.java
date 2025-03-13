@@ -3,7 +3,7 @@ public class Job {
     public static void main(String[] args) {
         System.out.println("Employee Salary Calculation");
         System.out.println("Enter Your Job Role:");                
-        System.out.println("1.Manager\n2.Developer\n3.Intern");   // Displaying the job role options   
+        System.out.println("1.Manager\n2.Developer\n3.Intern");     // Displaying the job role options   
         Scanner sc = new Scanner(System.in);                        
         System.out.print("Enter your Job role (1-3): ");           //accept the role from user 
         int ch = sc.nextInt();
@@ -31,9 +31,9 @@ public class Job {
         if (experience>=0&&experience<=2) {                            //compute the bonus based on years of experience
             bonus=0; //no bonus 
         } else if(experience>=3&&experience<=5) {
-            bonus=0.10*baseSalary; //10% bonus for 3-5 year of experience
+            bonus=0.10*baseSalary;     //10% bonus for 3-5 year of experience
         } else if(experience>5) {
-            bonus=0.20*baseSalary;  //20% bonus for more than 5 year
+            bonus=0.20*baseSalary;     //20% bonus for more than 5 year
         }
         double finalSalary=baseSalary+bonus;    //calculating teh final salary
         System.out.println("Final Salary after bonus: "+finalSalary);
