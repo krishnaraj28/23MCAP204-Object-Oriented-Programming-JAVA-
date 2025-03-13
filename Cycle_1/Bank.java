@@ -1,17 +1,17 @@
 import java.util.Scanner;
 
-class Account {
+class Account {                               //BankAccount class
     private String accountNumber;
     private String accountHolder;
     private double balance;
 
-    Account(String accountNumber, String accountHolder, double balance) {
-        this.accountNumber=accountNumber;
+    Account(String accountNumber, String accountHolder, double balance) {   //constuctor for Account class
+        this.accountNumber=accountNumber;                                  
         this.accountHolder=accountHolder;
         this.balance=balance;
     }
 
-    public void deposit(double amount) {
+    public void deposit(double amount) {                                    //method for deposit
         if (amount > 0) {
             balance += amount;
             System.out.println("Successfully deposited: $" + amount);
@@ -20,7 +20,7 @@ class Account {
         }
     }
 
-    public void withdraw(double amount) {
+    public void withdraw(double amount) {                               //method for withdraw
         if (amount > 0 && amount <= balance) {
             balance -= amount;
             System.out.println("Successfully withdrawn: $" + amount);
@@ -31,7 +31,7 @@ class Account {
         }
     }
 
-    public void displayAccountInfo() {
+    public void displayAccountInfo() {                                  //method for display
         System.out.println("\nAccount Information:");
         System.out.println("Account Number: " + accountNumber);
         System.out.println("Account Holder: " + accountHolder);
@@ -39,10 +39,9 @@ class Account {
     }
 }
 
-public class Bank {
+public class Bank {                                                    //Main class Bank
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        
         System.out.print("Enter Account Number: ");
         String accNumber = sc.nextLine();
         System.out.print("Enter Account Holder Name: ");
@@ -50,7 +49,7 @@ public class Bank {
         System.out.print("Enter Initial Balance: ");
         double initialBalance = sc.nextDouble();
 
-        Account ac = new Account(accNumber, accHolder, initialBalance);
+        Account ac = new Account(accNumber, accHolder, initialBalance);       //class object
 
         int choice;
         do {
@@ -60,10 +59,10 @@ public class Bank {
             System.out.println("3. Display Account Info");
             System.out.println("4. Exit");
             System.out.print("Enter your choice: ");
-            choice = sc.nextInt();
+            choice = sc.nextInt();                                             //reading user's choice
 
-            switch (choice) {
-                case 1:
+            switch (choice) {                                                 //Give the result according to users choice
+                case 1: 
                     System.out.print("Enter amount to deposit: ");
                     double depositAmount = sc.nextDouble();
                     ac.deposit(depositAmount);
