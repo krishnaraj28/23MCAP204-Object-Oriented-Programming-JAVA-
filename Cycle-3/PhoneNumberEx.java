@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class PhoneNumberException extends Exception {          //exception class
+class PhoneNumberException extends Exception {         //exception class
     public PhoneNumberException(String message) {
         super(message);
     }
