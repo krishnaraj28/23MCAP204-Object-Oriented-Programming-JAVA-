@@ -17,8 +17,7 @@ public class GradeEx {
 
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
-        System.out.print("Enter the student's grade (A-F): ");
-        
+        System.out.print("Enter the student's grade (A-F): "); 
         // Read the input and convert it to uppercase
         char grade=sc.nextLine().toUpperCase().charAt(0);
 
