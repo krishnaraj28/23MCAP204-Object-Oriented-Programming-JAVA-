@@ -1,0 +1,3 @@
+21 Write a Java program that throws an exception if the password is less than 8 characters or does not contain a number and do not have at least one special character{$#&)
+22 Write a Java program that throws an exception if the phone number does not have exactly 10 digits.
+23.Write a Java program that checks if a student's grade is valid.
