@@ -1,0 +1,17 @@
+Create an abstract class Employee with attributes name and id, and an abstract method calculateSalary().
+Create two subclasses:
+FullTimeEmployee (has monthlySalary).
+PartTimeEmployee (has hourlyRate and hoursWorked).
+Implement and test the system.
+13. Create a class ‘Person’ with data members Name, Gender, Address, Age and a constructor to initialize the data members and another class ‘Employee’ that inherits the properties of class Person and also contains its own data members like Empid, Company_name, Qualification, Salary and its own constructor. Create another class ‘Teacher’ that inherits the properties of class Employee and contains its own data members like Subject, Department, Teacherid and also contain constructors and methods to display the data members. Use array of objects to display details of N teachers
+14. Check whether a matrix is symmetric.
+15. Calculate the sum of rows and columns of a matrix.
+16. Sort an array of strings.
+17. Count the number of vowels and consonants in a line of text.
+18. Check if a string is a palindrome.
+19. .search for a pattern in a string and replace it with  another string
+20. Create an interface Shape with an abstract method calculateArea().
+Implement Shape in Triangle and Rectangle classes.
+Use constructors in Triangle and Rectangle to initialize dimensions.
+Override calculateArea() in both classes to compute their respective areas.
+Demonstrate polymorphism by calling calculateArea() on Shape references.
