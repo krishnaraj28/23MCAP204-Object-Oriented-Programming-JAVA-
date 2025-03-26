@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 class PasswordException extends Exception {             //exception class
     public PasswordException(String message) {
-        super(message);                 // Calls the constructor of Exception class
+        super(message);                         // Calls the constructor of Exception class
     }
 }
 
