@@ -3,10 +3,10 @@ public class PalindString{
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         System.out.print("Enter a string: ");
-        String word=sc.nextLine().toLowerCase();
+        String word=sc.nextLine().toLowerCase();    //make the string lowercase
         int l=word.length();
         int flag=0;
-        for(int i=0;i<l/2;i++) {
+        for(int i=0;i<l/2;i++) {                       //loop for check if palindrome
             if(word.charAt(i)!=word.charAt(l-1-i)) {
                 flag=1;
                 break;
