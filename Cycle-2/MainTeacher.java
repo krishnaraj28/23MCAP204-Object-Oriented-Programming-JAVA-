@@ -47,7 +47,7 @@ class Teacher extends Employee {
 
     // Method to display teacher details
     public void display() {
-        System.out.println("-------------------------------------------------");
+        System.out.println("------------------------------------------------");
         System.out.println("Teacher ID: " + teacherId);
         System.out.println("Name: " + name);
         System.out.println("Gender: " + gender);
