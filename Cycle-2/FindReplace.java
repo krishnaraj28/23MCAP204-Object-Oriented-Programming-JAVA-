@@ -6,10 +6,10 @@ public class FindReplace {
         String original = sc.nextLine();
         System.out.print("Enter the word to find: ");
         String pattern = sc.nextLine();
-        if (original.toLowerCase().contains(pattern.toLowerCase())) { 
+        if (original.toLowerCase().contains(pattern.toLowerCase())) { //make the orginal one to case sensitive
             System.out.print("Enter the replacement word: ");
             String replacement = sc.nextLine();
-            String result = original.replaceAll("(?i)" + pattern, replacement);
+            String result = original.replaceAll("(?i)" + pattern, replacement); //replace with pattern
             System.out.println("Modified string: " + result);
         } 
         else {
