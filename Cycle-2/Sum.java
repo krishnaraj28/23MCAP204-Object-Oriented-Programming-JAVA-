@@ -7,20 +7,20 @@ public class Sum{
         System.out.print("Enter number of columns: ");
         int c = sc.nextInt();
         int[][] matrix = new int[r][c];
-        System.out.println("Enter elements of the matrix:");
+        System.out.println("Enter elements of the matrix:");    //inputing the matrix
         for (int i = 0; i < r; i++) {
             for (int j = 0; j < c; j++) {
                 matrix[i][j] = sc.nextInt();
             }
         }
-        System.out.println("The entered matrix is:");
+        System.out.println("The entered matrix is:");          //printing the matrix
         for (int i = 0; i < r; i++) {
             for (int j = 0; j < c; j++) {
                 System.out.print(matrix[i][j] + " ");
             }
             System.out.println(); 
         }
-        System.out.println("Row-wise sum:");
+        System.out.println("Row-wise sum:");                //calculating the row wise sum
         for (int i = 0; i < r; i++) {
             int rowSum = 0;
             for (int j = 0; j < c; j++) {
@@ -28,7 +28,7 @@ public class Sum{
             }
             System.out.println("Sum of row " + (i + 1) + ": " + rowSum);
         }
-        System.out.println("Column-wise sum:");
+        System.out.println("Column-wise sum:");             //calculating the column wise sum 
         for (int j = 0; j < c; j++) {
             int colSum = 0;
             for (int i = 0; i < r; i++) {
